@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="icon" type="image/x-icon" href="./assets/favico/default.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/tilt-effect.css">
+</head>
+
+  <div id="terminal">
+    <div id="terminal-header">
+      <div id="terminal-buttons">
+
+        <div class="terminal-button" id="close-button"></div>
+        <div class="terminal-button" id="minimize-button"></div>
+        <div class="terminal-button" id="maximize-button"></div>
+      </div>
+    </div>
+    <div id="terminal-content">
+      <p id="terminal-text"></p>
+    </div>
+  </div>
+
+  <div id="video-background">
+    <video autoplay muted loop id="myVideo">
+      <source src="./assets/back/default.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div id="audio-background">
+      <div id="music-controls">
+        <input type="range" id="volume-slider" min="0" max="100" value="50">
+        <div id="progress-container">
+          <div id="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div id="video-overlay"></div>
+    <div id="blurred-box" class="tilt-element">
+      <img id="profile-picture" src="./assets/pfp/default.png" alt="Profile Picture">
+      <img id="avatar-frame" src="" alt="Avatar Frame">
+      <p id="username-container" style="color: white; font-weight: bold; font-size: 32px;">
+        <span id="username">c0mplex</span>
+        <span id="typing-cursor">|</span>
+      </p>
+      <div class="badges-container">
+        <img src="./assets/badge/developer.png" alt="dev badge">
+        <img src="./assets/badge/love.png" alt="heart badge">
+        <img src="./assets/badge/music.png" alt="music badge">
+        <img src="./assets/badge/verified.png" alt="verified badge">
+      </div>
+      <div class="lang-container">
+        <img src="./assets/logo/c.png" alt="c">
+        <img src="./assets/logo/cplusplus.png" alt="cplusplus">
+        <img src="./assets/logo/matlab.png" alt="matlab">
+        <img src="./assets/logo/python.png" alt="python">
+        <img src="./assets/logo/csharp.png" alt="csharp">
+        <img src="./assets/logo/java.png" alt="java">
+      </div>
+
+      <div class="user-description">
+        <p id="user-description" style="color: white;">
+          Hi everyone, I’m c0mplex<br>I have a deep interest in exploring Internet of Things<br>I’m eager to connect with others and keep learning from new experiences
+        </p>
+      </div>
+
+      <div class="discord-widget">
+        <div class="discord-content">
+          <div class="discord-icon">
+            <img id="discord-avatar" src="" alt="Discord Avatar" draggable="false" loading="lazy">
+          </div>
+          <div class="discord-meta">
+            <b id="discord-username"></b>
+            <div>
+              <span id="discord-status-dot"></span>
+              <span id="discord-status-text"></span>
+            </div>
+          </div>
+        </div>
+        <div class="discord-activity">
+          <div id="discord-activity-info">
+            <div id="discord-album-art"></div>
+            <div class="discord-activity-content">
+              <div id="discord-activity-name"></div>
+              <div id="discord-activity-details"></div>
+              <div id="discord-activity-state"></div>
+            </div>
+          </div>
+          <div id="discord-no-activity">I'm not currently doing anything!</div>
+        </div>
+      </div>
+
+      <div class="links"> 
+        <a href="https://www.facebook.com/c0mplexisreal" target="_blank">
+          <i class="fab fa-facebook"></i> 
+        </a> 
+        <a href="https://github.com/c0mplex07" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a> 
+        <a href="https://www.tiktok.com/@c0mplex07" target="_blank">
+          <i class="fa-brands fa-tiktok"></i>
+        </a> 
+        <a href="https://x.com/c0mplex_vn" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a> 
+        <a href="mailto:enou456xq@gmail.com" target="_blank">
+          <i class="fa-brands fa-google mail"></i>
+        </a> 
+      </div>
+    </div>
+  </div>
+  
+  <script src="./assets/js/lanyard.js"></script>
+  <script src="./assets/js/discord.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/title.js"></script>
+  <script src="./assets/js/username-animation.js"></script>
+  <script src="./assets/js/tilt-effect.js"></script>
+  <script src="./assets/js/audio-visualizer.js"></script>
+  <script src="./assets/js/neko.js"></script>
+  <script src="./assets/js/neko-init.js"></script>
+  <script src="./assets/js/music.js"></script>
+</body>
+</html>
