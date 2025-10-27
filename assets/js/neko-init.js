@@ -1,5 +1,3 @@
-// assets/js/neko-init.js
-
 function initNekoCats() {
   const nekoImageUrls = [
     "neko.png"
