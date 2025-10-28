@@ -1,5 +1,7 @@
 const songs = [
-    "CÂM MỒM - Phúc Du diss Lăng LD (Official Lyrics Video).mp3"
+    "blue - yung kai.mp3",
+    "Van Gogh (feat. Ashley Alisha).mp3",
+    "Winter blossom (feat. Ashley Alisha & nobody likes you pat).mp3"
 ];
 
 let currentSongIndex = 0;
