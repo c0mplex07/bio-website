@@ -488,7 +488,6 @@ class Neko {
       return;
     }
 
-    // Reset trạng thái idle
     this.idleAnimation = null;
     this.idleAnimationFrame = 0;
 
