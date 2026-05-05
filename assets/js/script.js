@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var closeButton = document.getElementById('close-button');
 
   var terminalTextContent = [
-      "User: SHUT UP NIGGA",
+      "User: UNKNOWN",
       "IP: Loading...",
       "System: Loading...",
       "Bio Loaded",
